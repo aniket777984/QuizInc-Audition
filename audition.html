@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audition Form</title>
+    <link rel="stylesheet" href="audition.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="mainBox">
+
+    <section id="banner-audition">
+        <img src="images/logo.png" class="logo">
+    </section>
+
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./audition.html">Audition Form</a></li>
+                <li><a href="https://quizinc-nit-dgp.onrender.com/">Main Website</a></li>            
+            </ul>
+        </nav>
+    </div>
+    <!-- side nav which will hide and show -->
+
+    <div id="menuBtn" onclick="toggle()">
+        <img src="images/menu.png" id="menu">
+    </div>
+
+     
+      <!-- contact us  -->
+       <section class="location">
+        <div data-customgform="clrrfm08y00exwnittgnl98a7"></div>
+        <script async src="https://cdn.customgform.com/cgf.js"></script>
+       </section>
+    
+    <!-- Footer -->
+    <section class="footer">
+        <h4>Get In Touch</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/search/top?q=quizinc"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/quizincnitdgp/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/quizinc/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made With  <i class="fa fa-heart-o"></i> by QuizInc Team</p>
+    </section>
+
+</div>
+
+
+
+
+
+    <!-- java script for sidebar hide and show -->
+     <!-- js script to hide and show sidebar -->
+     <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu = document.getElementById("menu");
+        sideNav.style.right = "-250px";
+
+        function toggle() {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "images/close.png";
+            }
+            else {
+                sideNav.style.right = "-250px"
+                menu.src = "images/menu.png";
+            }
+        }
+    </script>
+</body>
+
+</html>
