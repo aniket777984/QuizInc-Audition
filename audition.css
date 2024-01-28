@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+.mainBox{
+    background: #081b29;
+}
 
 
 
@@ -12,86 +15,31 @@
 .footer{
     width: 100%;
     text-align: center;
-    padding: 15px 0;
-    /* background: grey; */
-    background: #34495e;
+    padding: 10px 0;
+    background: #081b29;
+    padding-bottom: 20px;
 }
 .footer h4{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
-    color: white;
+    color: #00abf0;
 }
 .icons .fa{
- color: tomato;
+ color: #fff;
  margin: 0 13px;
  cursor: pointer;
- padding: 18px 0;
+ padding: 10px 0;
  font-size: 30px;
 }
 .footer p{
-    font-size: 20px;
-    color: white;
+    font-size: 15px;
+    color: #00abf0;
 }
 .fa-heart-o{
-    color: #f44336;
-}
-
-
-
-
-/* Css for about us page */
-.bottom-text-box{
-    width: 90%;
-    color: white;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    text-align: center;
-}
-.bottom-text-box h1{
-    font-size: 60px;
-}
-  
-.about-us{
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-.about-col{
-    flex-basis: 48%;
-    padding: 30px 2px;
-}
-.about-col img{
-    width: 100%;
-}
-.about-col h1{
-    padding-top: 0;
-}
-.about-col p{
-    padding: 15px 0 25px;
-}
-.red-btn{
-    border: 1px solid #f44336;
-    background: transparent;
-    color: #f44336;
-}
-.red-btn:hover{
     color: #fff;
 }
-
-@media(max-width:700px){
-    .bottom-text-box h1{
-        font-size: 20px;
-    }
-}
-
-/* .mainBox{
-    background: #34495e;
-} */
 
 /* css for contact us page */
 .location{
@@ -99,40 +47,12 @@
     margin: auto;
     padding-top: 150px;
     padding-bottom: 50px;
+    margin-bottom: 40px;
 }
 .location iframe{
     width: 100%;
 }
 
 
-
-
-/* .location{
-    width: 50%;
-    margin: auto;
-    position: relative;
-    top: 150px;
-    padding-top: 20px;
-    border-radius: 10px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background: black;
-    margin-bottom: 200px;
-}
-.location iframe{
-    width: 100%;
-}
-
-@media(max-width:700px){
-    .location{
-        width: 100%;
-    }
-    .location iframe{
-        height: 2700px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }     
-} */
 
 
