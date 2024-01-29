@@ -31,17 +31,17 @@
 }
 .banner-text{
     text-align: center;
-    color: #fff;
     padding-top: 180px;
 }
 .banner-text h1{
     font-size: 140px;
+    color: #00abf0;
     font-family: 'Kaushan Script' ,sans-serif;
 }
 .banner-text p{
     font-size: 30px;
     font-style: italic;
-    color: #00abf0;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -151,8 +151,8 @@ nav ul li a:hover{
     }
     .circle2{
         clip-path: circle(200px);
-        filter: blur(100px);
-        top: -45px;
+        filter: blur(25px);
+        top: -35px;
     }
 }
 
