@@ -44,17 +44,27 @@
 
 /* css for contact us page */
 .location{
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding-top: 150px;
     padding-bottom: 50px;
     margin-bottom: 40px;
-    position: relative;
 }
 
-#gform{
-    height: 2500;
+iframe{
+    width: 900px;
 }
+
+@media screen and (max-width:770px){
+    .location{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+        height: 2900px;
+    }
+}
+
 
 .customform{
     width: 100%;
